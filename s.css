@@ -1,0 +1,27 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body
+{
+  fort-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+.int-area {
+  width: 100%; position: relative;
+  margin-top: 20px;
+}
+.int-area:first-child {margin-top: 0;}
+
+.int-area input
+{
+  width: 100%;
+  padding: 20px 10px 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 18px; color: #fff;
+  outline: none;
+}
