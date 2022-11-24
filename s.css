@@ -14,12 +14,12 @@ body::before
   content: "";
   position: absolute; z-index: 1;
   top: 0; right: 0; bottom: 0; left: 0;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,0);
 }
 
 .login-form {position: relative; z-index: 2;}
 .login-form h1
-{
+{  
   fort-size: 32px; color: #fff;
   text-align: center;
   margin-bottom: 60px;
